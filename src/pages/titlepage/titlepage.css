@@ -1,0 +1,121 @@
+.titlepage{
+    /* background-color:#B2DFDB; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.titlebackgroundimage{
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+  .titlenamecontainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#0097A7;
+    
+    }
+  
+@media screen and (min-width: 1001px) {
+.titlevideocontainer{
+    max-width: 900px;
+    max-height: 600px;
+    padding-top: 25px;
+ padding-bottom: 15px;
+ display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.titlevideo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+.titlename{
+    color:black;
+    font-size:400%;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.titlesubname {
+    padding-top: 20px;
+    font-size: 25px;
+    color: black;
+  }
+  .titleline{
+    border-top: 1px solid black ;
+      width: 150px;
+      align-content: center;
+      padding-bottom: 10px;
+  
+}
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .titlevideocontainer{
+        max-width: 900px;
+        max-height: 600px;
+        padding-top: 25px;
+     padding-bottom: 15px;
+     display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    
+    }
+    
+    .titlevideo{
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 40px;
+    }
+    
+    .titlename{
+        padding-top: 10px;
+        color: black;
+        font-size:200%;
+        font-weight: bold;
+        font-family: 'Lora', serif;
+    }
+    
+    .titlesubname {
+        padding-top: 20px;
+        font-size: 15px;
+        color: black;
+      }
+      .titleline{
+        border-top: 1px solid black ;
+          width: 150px;
+          align-content: center;
+          padding-bottom: 20px;
+      
+      }
+
+}
