@@ -1,0 +1,30 @@
+
+.highlightscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlightscarousel{
+    margin: 20px;
+}
+
+.highlightscarouselitem{
+    padding: 30px;
+}
+
+.highlightsimagecontainer{
+    max-width: 800px;
+    max-height: 900px;
+}
+
+.highlightsimage{
+    width: 100%;
+    height: 100%;
+}
+
+.highlightsimagecontainer_height{
+    max-height: 600px ;
+    max-width: 400px;
+}

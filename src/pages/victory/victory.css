@@ -1,0 +1,31 @@
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselitem{
+    /* margin: 50px; */
+    padding: 30px;
+    /* width: 600px; */
+}
+
+.imgcontain{
+    max-width: 800px;
+    max-height: 900px;
+}
+.carousel{
+    margin: 20px;
+}
+
+.imgset{
+    width: 100%;
+    height: 100%;
+}
+
+.imgcontain3{
+    max-height: 600px ;
+    max-width: 400px;
+}

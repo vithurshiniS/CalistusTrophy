@@ -1,0 +1,36 @@
+.thrillimagecontainer{
+    max-width: 400px;
+    max-height: 600px;
+    margin: 50px;
+}
+
+.thrillphoto{
+    /* margin-top: 90px; */
+    width: 100%;
+    height: 100%;
+}
+
+.thrillcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.thrilltextcontainer{
+    /* margin-top: 20px; */
+    margin: 20px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    background-color:#C8E6C9;
+}
+
+.thrilltext{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}

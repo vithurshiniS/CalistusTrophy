@@ -1,0 +1,28 @@
+.groundphoto{
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.groundcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.groundtextcontainer{
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    background-color:#C8E6C9;
+}
+
+.groundtext{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}

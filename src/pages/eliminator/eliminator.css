@@ -1,0 +1,31 @@
+
+.eliminatorcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eliminatorcarouselitem{
+    /* margin: 50px; */
+    padding: 30px;
+    /* width: 600px; */
+}
+
+.eliminatorimagecontainer{
+    max-width: 800px;
+    max-height: 900px;
+}
+.eliminatorcarousel{
+    margin: 20px;
+}
+
+.eliminatorimage{
+    width: 100%;
+    height: 100%;
+}
+
+.eliminatorimage_height{
+    max-height: 600px ;
+    max-width:eliminator
+}
