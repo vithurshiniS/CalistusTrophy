@@ -15,3 +15,234 @@ code {
 .land{
   background-color:azure;
 }
+
+@media screen and (max-width: 600px) {
+  .content{
+    position: absolute;
+    height: 100%;
+    /* width: 100%; */
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 2%;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+    /* font-size:250%; */
+  }
+
+  .intro-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+  .intro-text {
+    font-size: 10px;
+    color: black;
+    margin-right: 5px;
+  }
+
+}
+
+
+.intro-image {
+  /* padding: 15px; */
+  /* width: 100vh; */
+  height: 100%;
+  width: 100%;
+  padding-top: 3px;
+  /* margin: 10px; */
+
+
+}
+
+.boxes{
+padding-left: 5px ;
+padding-right: 5px;
+/* padding-top: 10px; */
+padding-bottom: 10px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.separateboxes{
+padding-left: 5px ;
+padding-right: 5px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.champmainboxes{
+padding-left: 5px ;
+padding-right: 5px;
+padding-bottom: 30px;
+margin: 10px;
+
+}
+
+.championbox{
+  height: 120px;
+  width: 100%;
+  height: 100%;
+  /* max-width: 1000px; */
+  background-color:#0097A7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+  /* margin-bottom: 8px; */
+}
+
+.championname{
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  /* justify-content: center ; */
+  /* align-items: center; */
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 20px;
+} 
+
+
+.teamname{
+  /* text-align: center; */
+  justify-content: center ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+} 
+
+.playoff{
+  height: 60px;
+  width: 100%;
+  max-width: 1000px;
+  background-color:lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 8px;
+
+}
+
+
+.playoffboxes{
+padding-left: 5px ;
+padding-right: 5px;
+padding-top: 30px;
+}
+
+/* .intro-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.intro-text {
+  font-size: 20px;
+  color: black;
+  margin-right: 20px;
+}  */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchcontent {
+  margin-top: 100px;
+}
+
+.image,
+.image2 {
+  /* width: 100%; */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image.visible,
+.image2.visible {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+/* 
+.image {
+  background-image: url('/myproject/src/assets/team16a.jpeg');
+}
+
+.image2 {
+  background-image: url('/myproject/src/assets/team17a.jpeg');
+} */
+
+.beforeMatch-image{
+  margin-left: 50px;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+/* .wholetext{
+  font-family: 'Josefin Sans', sans-serif;
+} */
+
+.teamnamebox{
+  height: 60px;
+  width: 100%;
+  /* max-width: 1000px; */
+  background-color:chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+
+
+}
+
+
+
+.finalbox{
+  height: 100%;
+  width: 100%;
+  /* max-width: 1000px; */
+  background-color:#DEE6EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+  /* padding: 5px; */
+  /* margin: 5px; */
+
+}
+
+.finaltext{
+  justify-content: center;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Lora', serif;
+
+  font-size: 15px;
+} 
+
+.titletext{
+  font-family: 'Lora', serif;
+}
+
+.Mobile_App{
+  background-color: black;
+}
+
+/* .header{
+
+  height: 130px;
+  background-color: #AF8C95;
+  position: absolute;
+  } */

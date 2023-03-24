@@ -37,7 +37,7 @@ import Eliminator from '../pages/eliminator/Eliminator';
 
 export default function Banner() {
   return (
-   <Carousel variant="dark" indicators= {false}>
+   <Carousel  indicators= {false} style={{margin: 0}}>
       <Carousel.Item>
         <TitlePage/>
       </Carousel.Item>
@@ -50,121 +50,121 @@ export default function Banner() {
         <Playoffmatch/>
       </Carousel.Item>
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <History/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Finalteams/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Coin/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
       {/* <Carousel.Item>
         <Deck/>
       </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Defending/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Ground/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Navasir/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Qualifier1/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Eliminator/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Qualifier2/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <E17e18/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Nightmatch/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Daymatch/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Thrill/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Disappointments/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Victory/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Brothers/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Selfie/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Roshansir/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Highlights/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Football/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Volleyball/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Badminton/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Championcricket/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Championfootball/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Championvolleyball/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Championbadminton/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <E16/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <E17/>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
       <Carousel.Item>
         <Groupefac/>

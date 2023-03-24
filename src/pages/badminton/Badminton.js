@@ -29,7 +29,7 @@ export default function Badminton() {
             <p className='badmintontext'>This year, the first-ever badminton championship was staged to encourage girls to participate in sports and advance their abilities. The E18 squad, who created history by becoming the first champions, displayed a range of emotions during the tournament.</p>
         </div>
         <motion.div ref={carousel1} className='carousel'>
-            <motion.div drag='x' dragConstraints={{right:0,left:-width}} className='inner-carousel'>
+            <motion.div drag='x' dragConstraints={{right:0,left:-width}} className='inner-carousel' > 
                 {images.map(image =>{
                     return(
                         <motion.div className='item' key={image}>
