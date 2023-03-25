@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CalistusTrophy/static/css/main.adafbb6d.css",
-    "main.js": "/CalistusTrophy/static/js/main.fa27abf9.js",
+    "main.js": "/CalistusTrophy/static/js/main.63035381.js",
     "static/js/787.4cfb3467.chunk.js": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js",
     "static/media/introVideo.mp4": "/CalistusTrophy/static/media/introVideo.402cb1cdc3ae9d4a9ca0.mp4",
     "static/media/e2.jpg": "/CalistusTrophy/static/media/e2.171c9a8def2af79a9c15.jpg",
@@ -112,11 +112,11 @@
     "static/media/swiping.png": "/CalistusTrophy/static/media/swiping.5a62e779690f890b707a.png",
     "index.html": "/CalistusTrophy/index.html",
     "main.adafbb6d.css.map": "/CalistusTrophy/static/css/main.adafbb6d.css.map",
-    "main.fa27abf9.js.map": "/CalistusTrophy/static/js/main.fa27abf9.js.map",
+    "main.63035381.js.map": "/CalistusTrophy/static/js/main.63035381.js.map",
     "787.4cfb3467.chunk.js.map": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adafbb6d.css",
-    "static/js/main.fa27abf9.js"
+    "static/js/main.63035381.js"
   ]
 }
