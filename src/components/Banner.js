@@ -40,7 +40,7 @@ export default function Banner() {
   // const style = { background: linearGradient };
 
   return (
-   <Carousel  indicators= {false} style={{margin: 0,backgroundColor:'black'}}>
+   <Carousel slide={false} indicators= {false} style={{margin: 0,backgroundColor:'black'}}>
       <Carousel.Item>
         <TitlePage/>
       </Carousel.Item>

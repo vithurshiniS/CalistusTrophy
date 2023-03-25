@@ -33,7 +33,8 @@
 }
 
 .victorytextcontainer{
-    background-color: #0097A7;
+    background-color: #E57373;
+    border-radius: 10px;
     max-width: 1000px;
     width: 100%;
 

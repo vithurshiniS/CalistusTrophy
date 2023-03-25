@@ -3,13 +3,14 @@
 .groupefacimage{
     width: 100%;
     height: auto;
-    filter: brightness(40%);
+    filter: brightness(60%);
 }
 
 .geoupefactext{
   font-family: 'Lora', serif;
   font-weight: bold;
   height: 100%;
+  font-size: 20px;
 
 }
 

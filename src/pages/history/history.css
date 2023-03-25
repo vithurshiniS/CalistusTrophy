@@ -23,6 +23,7 @@
     width: 100%;
     /* height: auto; */
     background-color:#8ED1FC;
+    border-radius: 10px;
 }
 
 .historytext{

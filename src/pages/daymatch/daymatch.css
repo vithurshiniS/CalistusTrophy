@@ -39,5 +39,6 @@
 .daymatchtextcontainer{
     max-width: 600px;
     width: 100%;
-    background-color: chartreuse;
+    background-color: #E57373;
+    border-radius: 10px;
 }

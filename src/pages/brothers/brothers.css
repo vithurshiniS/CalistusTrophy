@@ -13,7 +13,8 @@
 .brotherstextcontainer{
     max-width: 900px;
     /* width: 100%; */
-    background-color: beige;
+    background-color: #FFCCBC;
+    border-radius: 10px;
     margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;

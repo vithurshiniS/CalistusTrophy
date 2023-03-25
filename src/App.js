@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './components/Banner';
 import Mobileview from './pages/mobileview/Mobileview';
 import { useState, useEffect } from 'react';
+import Videotry from './components/Videotry';
 
 // const isMobile = window.innerWidth <= 600;
 
@@ -39,6 +40,7 @@ function App() {
       <div className="App">
        
         <Banner/>
+        {/* <Videotry/> */}
       </div>
     );
   }

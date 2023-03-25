@@ -32,7 +32,7 @@ export default function Roshansir() {
         return (
             <div className='roshansircontainer'>
                 <div className='roshansirtextcontainer'>
-                    <p className='roshansirtext'>In the gathering, the chief guest, Prof. Roshan G. Ragel, the Head of Computer Engineering at the Faculty of Engineering, University of Peradeniya, expressed his satisfaction during the awards ceremony. </p>
+                    <p className='roshansirtext'>In the gathering, the chief guest, <a href='https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/'>Prof. Roshan G. Ragel</a>, the Head of Computer Engineering at the Faculty of Engineering, University of Peradeniya, expressed his satisfaction during the awards ceremony. </p>
                 </div>
         
                 <div className='roshansirmasonry' style={{paddingLeft:'130px',paddingRight:'130px', paddingTop:'20px'}}> 
@@ -61,7 +61,7 @@ export default function Roshansir() {
         return (
             <div className='roshansircontainer'>
                 <div className='roshansirtextcontainer'>
-                    <p className='roshansirtext'>In the gathering, the chief guest, Prof. Roshan G. Ragel, the Head of Computer Engineering at the Faculty of Engineering, University of Peradeniya, expressed his satisfaction during the awards ceremony. </p>
+                    <p className='roshansirtext'>In the gathering, the chief guest, <a href='https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/'>Prof. Roshan G. Ragel</a>, the Head of Computer Engineering at the Faculty of Engineering, University of Peradeniya, expressed his satisfaction during the awards ceremony. </p>
                 </div>
         
                 <div className='roshansirmasonry' style={{paddingLeft:'130px',paddingRight:'130px', paddingTop:'20px'}}> 

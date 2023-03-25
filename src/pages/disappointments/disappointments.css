@@ -12,6 +12,7 @@ height: 100vh;
     max-width: 900px;
     width: 100%;
     background-color: cadetblue;
+    border-radius: 10px;
     margin-top: 20px;
 }
 

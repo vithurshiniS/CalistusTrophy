@@ -13,7 +13,7 @@ export default function Navasir() {
   return (
     <div className='navasircontainer'> 
         <div className='navasirtextcontainer'>
-            <p className='navasirtext'>The chief guest, Dr S.K. Navaratnarajah, a Senior Lecturer of the Department of Civil Engineering of the University of Peradeniya, officially kicked off the event under the lights as the night began to shine. </p>
+            <p className='navasirtext'>The chief guest, <a href='https://eng.pdn.ac.lk/civil/people/drSKNavaratnarajah.php'>Dr S.K. Navaratnarajah</a>, a Senior Lecturer of the Department of Civil Engineering of the University of Peradeniya, officially kicked off the event under the lights as the night began to shine. </p>
         </div>
        
         <div className='navasirmasonry' > 

@@ -35,9 +35,12 @@
     max-width: 600px;
     width: 100%;
     background-color: crimson;
+    border-radius: 10px;
 }
 
 .highlightstext{
+    color: whitesmoke;
+    font-size: 20px;
     padding: 20px;
     font-weight: bold;
 }

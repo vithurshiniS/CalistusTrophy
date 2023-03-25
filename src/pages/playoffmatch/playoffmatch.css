@@ -12,6 +12,7 @@
 .playofftextcontainer{
     max-width: 1000px;
     width: 100%;
+    border-radius: 10px;
     /* background-color: #0097A7; */
     /* background: linear-gradient(to right, #43cea2, #185a9d); */
     background-color: #0097A7;

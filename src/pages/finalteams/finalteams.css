@@ -9,6 +9,7 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
     height: 100vh; 
+    /* margin-bottom: 10px; */
     
    
     
@@ -52,18 +53,22 @@
   .finalteamtextcontainer{
     /* background-color: #C8E6C9; */
     /* background: linear-gradient(to right, #43cea2, #185a9d); */
-    background-color: #0097A7;
+    background-color: #68CCCA;
     /* height: 30px; */
     max-width: 420px;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .finalteamtext{
     /* position: absolute; */
+    padding-top: 8px;
     font-size: 20px;
     font-weight: bold;
+    /* font-family: 'Varela', sans-serif; */
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
   }
