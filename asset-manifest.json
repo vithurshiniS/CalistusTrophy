@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CalistusTrophy/static/css/main.a4342c56.css",
+    "main.css": "/CalistusTrophy/static/css/main.b007554c.css",
     "main.js": "/CalistusTrophy/static/js/main.1d177916.js",
     "static/js/787.4cfb3467.chunk.js": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js",
     "static/media/introVideo.mp4": "/CalistusTrophy/static/media/introVideo.402cb1cdc3ae9d4a9ca0.mp4",
@@ -111,12 +111,12 @@
     "static/media/defendingCaptain.jpeg": "/CalistusTrophy/static/media/defendingCaptain.68c9afc3870c821551fd.jpeg",
     "static/media/swiping.png": "/CalistusTrophy/static/media/swiping.5a62e779690f890b707a.png",
     "index.html": "/CalistusTrophy/index.html",
-    "main.a4342c56.css.map": "/CalistusTrophy/static/css/main.a4342c56.css.map",
+    "main.b007554c.css.map": "/CalistusTrophy/static/css/main.b007554c.css.map",
     "main.1d177916.js.map": "/CalistusTrophy/static/js/main.1d177916.js.map",
     "787.4cfb3467.chunk.js.map": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4342c56.css",
+    "static/css/main.b007554c.css",
     "static/js/main.1d177916.js"
   ]
 }
