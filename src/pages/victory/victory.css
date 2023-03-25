@@ -1,31 +1,45 @@
 
-.whole{
+.victorycontainer{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.carouselitem{
+.victorycarouselitem{
     /* margin: 50px; */
     padding: 30px;
     /* width: 600px; */
 }
 
-.imgcontain{
-    max-width: 800px;
-    max-height: 900px;
+.victoryimagegcontainer{
+    max-width: 810px;
+    max-height: 540px;
 }
-.carousel{
+.victorycarousel{
     margin: 20px;
 }
 
-.imgset{
+.victoryimage{
     width: 100%;
     height: 100%;
 }
 
-.imgcontain3{
-    max-height: 600px ;
-    max-width: 400px;
+.victoryimage_height{
+    max-height: 540px ;
+    max-width: 360px;
+}
+
+.victorytextcontainer{
+    background-color: #0097A7;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.victorytext{
+    padding: 20px;
+    font-weight: bold;
 }

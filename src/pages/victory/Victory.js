@@ -19,74 +19,77 @@ export default function Victory() {
         // };
 
     return (
-        <div className='whole'>
-            <p>And finally, cheers to the trend continuing! The 18A team won and proclaimed themselves the 10th Calistus Trophy champions. The crew ultimately succeeded, and they were extremely thrilled with their accomplishment and celebrated their happiness.</p>
+        <div className='victorycontainer'>
+          <div className='victorytextcontainer'>
+          <p className='victorytext'>And finally, cheers to the trend continuing! The 18A team won and proclaimed themselves the 10th Calistus Trophy champions. The crew ultimately succeeded, and they were extremely thrilled with their accomplishment and celebrated their happiness.</p>
+          </div>
+           
         
-        <Carousel className='carousel' fade slide={false} interval={1000} controls={false} indicators={false}>
-          <Carousel.Item className='carouselitem'>
-            <div className='imgcontain'>
+        <Carousel className='victorycarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
+          <Carousel.Item className='victorycarouselitem'>
+            <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory1}
               alt="First slide"
             />
             </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory2}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain3'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage_height"
               src={victory3}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory4}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory5}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory6}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='victorycarouselitem'>
+          <div className='victoryimagegcontainer'>
             <img
-              className="imgset"
+              className="victoryimage"
               src={victory7}
               alt="Second slide"
             />

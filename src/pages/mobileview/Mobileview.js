@@ -93,7 +93,7 @@ export default function Mobileview() {
       text2=", the Head of Computer Engineering at the Faculty of Engineering, University of Peradeniya, expressed his satisfaction during the awards ceremony."/>
       <MRoshanSir/>
       <div style={{backgroundColor:'crimson', marginLeft:'10px', marginRight:'10px'}}>
-      <IntroText style={{color:'black'}} text="A glance at some of the event's highlights"/>
+      <IntroText text="A glance at some of the event's highlights"/>
       </div>
       
       <MHighlights/>
@@ -122,8 +122,8 @@ export default function Mobileview() {
     {/* <div className="finalbox">
 <p className='finaltext'>“Where there is unity, there is always victory.” This will not stop here. To reach the upper levels, the entire squad will put forth their best effort.</p>
     </div> */}
-    <Groupefac/>
-    {/* <MGroupefac/> */}
+    {/* <Groupefac/> */}
+    <MGroupefac/>
    
    
    

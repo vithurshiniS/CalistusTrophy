@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .highlightscarousel{
@@ -15,8 +16,8 @@
 }
 
 .highlightsimagecontainer{
-    max-width: 800px;
-    max-height: 900px;
+    max-width: 810px;
+    max-height: 540px;
 }
 
 .highlightsimage{
@@ -25,6 +26,18 @@
 }
 
 .highlightsimagecontainer_height{
-    max-height: 600px ;
-    max-width: 400px;
+    max-height: 540px ;
+    max-width: 360px;
+
+}
+
+.highlightstextcontainer{
+    max-width: 600px;
+    width: 100%;
+    background-color: crimson;
+}
+
+.highlightstext{
+    padding: 20px;
+    font-weight: bold;
 }

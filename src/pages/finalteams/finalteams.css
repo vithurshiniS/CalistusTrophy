@@ -1,29 +1,45 @@
 .grid-container {
     display: grid;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 20px;
-    margin-bottom: 250px;
+    /* grid-area: auto; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 5px;
-    height: 100vh; /* optional */
+    grid-gap: 20px;
+    height: 100vh; 
+    
+   
+    
   }
-  
+
+  /* .teambackground{
+    background-image: url('../../assets/background-images/black-splash1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+}
+   */
   .grid-item {
     /* background-color: #0097A7; */
     color: black;
     /* font-size: 36px; */
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 700px;
   }
 
   .finalteamphotocontainer{
-    max-width:  450px;
-    max-height: 300px;
+    max-width:  420px;
+    max-height: 280px;
     /* display: flex; */
   }
 
@@ -34,10 +50,13 @@
   }
 
   .finalteamtextcontainer{
-    background-color: #C8E6C9;
+    /* background-color: #C8E6C9; */
+    /* background: linear-gradient(to right, #43cea2, #185a9d); */
+    background-color: #0097A7;
     /* height: 30px; */
-    width: 450px;
-    height: 100%;
+    max-width: 420px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;

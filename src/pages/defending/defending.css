@@ -9,20 +9,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .defendingtextcontainer{
     margin-top: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     max-width: 900px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color:#C8E6C9;
+    margin-bottom: 30px;
 }
 
 .defendingtext{
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
+    /* width: 100%; */
+    /* font-size: 20px; */
+    padding: 20px;
     font-weight: bold;
 }

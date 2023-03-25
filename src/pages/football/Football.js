@@ -11,7 +11,7 @@ import fb6 from '../../assets/football/fb6.jpeg';
 import fb7 from '../../assets/football/fb7.jpeg';
 import fb8 from '../../assets/football/fb8.jpeg';
 import fb9 from '../../assets/football/fb9.jpeg';
-import swipe from '../../assets/swipe.png';
+import swiping from '../../assets/icons/swiping.png';
 
 const images = [fb1,fb2,fb3,fb4,fb5,fb6,fb7,fb8,fb9]
 
@@ -30,6 +30,7 @@ export default function Football() {
         <div className='footballtextcontainer'>
             <p className='footballtext'>The Clash of Brotherhood Football Championship took place this year and was similarly passionate. The match was won by Team E16, which also demonstrated a range of drive and commitment. </p>
         </div>
+        {/* <div> */}
         <motion.div ref={carousel1} className='carousel'>
             <motion.div drag='x' dragConstraints={{right:0,left:-width}} className='inner-carousel'>
                 {images.map(image =>{
@@ -41,9 +42,11 @@ export default function Football() {
                 })}
             </motion.div>
         </motion.div>
-        <div>
-            <img src={swipe}></img>
-        </div>
+    
+            <img className='swipeicon' src={swiping}></img>
+        {/* </div> */}
+        
+       
     </div>
   )
 }

@@ -8,6 +8,9 @@ import Team19 from '../../assets/finalteams/team19a.jpeg';
 export default function Finalteams
 () {
   return (
+    // <div className='teambackground'>
+
+   
 <div class="grid-container">
 
   <div class="grid-item">
@@ -48,5 +51,6 @@ export default function Finalteams
   </div>
 
 </div>
+// </div>
   )
 }

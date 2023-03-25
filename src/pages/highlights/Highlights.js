@@ -18,8 +18,11 @@ import highlights13 from '../../assets/highlights/Highlights13.jpeg';
 export default function Highlights() {
     return (
         <div className='highlightscontainer'>
+          <div className='highlightstextcontainer'>
+          <p className='highlightstext'>A glance at some of the event's highlights</p>
+          </div>
 
-            <p>A glance at some of the event's highlights</p>
+            
         
         <Carousel className='highlightscarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
           <Carousel.Item className='highlightscarouselitem'>

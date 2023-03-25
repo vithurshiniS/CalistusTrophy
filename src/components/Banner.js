@@ -36,9 +36,12 @@ import Eliminator from '../pages/eliminator/Eliminator';
 
 
 export default function Banner() {
+  // const linearGradient = 'linear-gradient(to right, #7b4397, #dc2430)';
+  // const style = { background: linearGradient };
+
   return (
-   <Carousel  indicators= {false} style={{margin: 0}}>
-      <Carousel.Item>
+   <Carousel  indicators= {false} style={{margin: 0,backgroundColor:'black'}}>
+      {/* <Carousel.Item>
         <TitlePage/>
       </Carousel.Item>
 
@@ -46,19 +49,19 @@ export default function Banner() {
         <CalistusIntroPage/>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item style={{backgroundColor:'black'}}>
         <Playoffmatch/>
       </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <History/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Finalteams/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Coin/>
       </Carousel.Item> */}
 
@@ -68,15 +71,15 @@ export default function Banner() {
 
       {/* <Carousel.Item>
         <Defending/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Ground/>
       </Carousel.Item> */}
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Navasir/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
       {/* <Carousel.Item>
         <Qualifier1/>
@@ -128,9 +131,9 @@ export default function Banner() {
 
       {/* <Carousel.Item>
         <Highlights/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Football/>
       </Carousel.Item> */}
 
@@ -144,31 +147,31 @@ export default function Banner() {
 
       {/* <Carousel.Item>
         <Championcricket/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Championfootball/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Championvolleyball/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Championbadminton/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <E16/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <E17/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
       <Carousel.Item>
         <Groupefac/>
-      </Carousel.Item>
+      </Carousel.Item> */}
      
     </Carousel>
     

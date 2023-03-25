@@ -4,6 +4,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.playofftextcontainer{
+    max-width: 1000px;
+    width: 100%;
+    /* background-color: #0097A7; */
+    /* background: linear-gradient(to right, #43cea2, #185a9d); */
+    background-color: #0097A7;
+    /* background: linear-gradient(to right, #7b4397, #dc2430); */
+    /* background-color: white; */
+}
+.playofftext{
+    padding: 20px;
+    font-weight: bold;
 }
 
 .playoffcarousel{
@@ -15,8 +32,8 @@
 }
 
 .playoffimagecontainer{
-    max-width: 800px;
-    max-height: 900px;
+    max-width: 810px;
+    max-height: 540px;
 }
 
 .playoffimage{
@@ -25,6 +42,6 @@
 }
 
 .playoffimagecontainer_height{
-    max-height: 600px ;
-    max-width: 400px;
+    max-height: 540px ;
+    max-width: 360px;
 }

@@ -21,9 +21,9 @@ import BM12 from '../../assets/beforematch/BM12.jpeg';
 export default function Playoffmatch() {
     return (
         <div className='playoffcontainer'>
-
-            <p>The tournament began on 7th of December, 2022, with two teams from each of the four batches (E16, E17, E18, and E19), and the teams that would face off in the final battle were chosen following the B-League and Super Six League matches.</p>
-        
+          <div className='playofftextcontainer'>
+          <p className='playofftext'>The tournament began on 7th of December, 2022, with two teams from each of the four batches (E16, E17, E18, and E19), and the teams that would face off in the final battle were chosen following the B-League and Super Six League matches.</p>
+          </div>
         <Carousel className='playoffcarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
           <Carousel.Item className='playoffcarouselitem'>
             <div className='playoffimagecontainer'>
