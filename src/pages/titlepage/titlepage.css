@@ -1,4 +1,19 @@
+.titlerowcontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+.photostory{
+
+  font-family: 'Allura', cursive;
+  display: flex;
+  color:white;
+  font-size: 27px;
+  align-items: flex-end;
+  /* font-weight: bold; */
+  
+}
 
   .titlenamecontainer{
 
@@ -36,8 +51,8 @@
 }
 
 .titlevideocontainer{
-    max-width: 900px;
-    max-height: 600px;
+    max-width: 810px;
+    max-height: 540px;
     padding-top: 25px;
  padding-bottom: 15px;
  display: flex;
@@ -60,6 +75,7 @@
     font-size:400%;
     font-weight: bold;
     font-family: 'Lora', serif;
+    margin-right: 20px;
 }
 
 .titlesubname {

@@ -65,10 +65,6 @@ export default function Banner() {
         <Coin/>
       </Carousel.Item>
 
-      {/* <Carousel.Item>
-        <Deck/>
-      </Carousel.Item> */}
-
       <Carousel.Item>
         <Defending/>
       </Carousel.Item>

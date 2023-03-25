@@ -9,11 +9,18 @@ export default function TitlePage() {
       <p className='titlesubname'>A decade down, forever to go!</p>
 
       <div className='titlenamecontainer'>
-        {/* <div></div> */}
-        <div className='titlename'>Calistus Trophy</div>
+        
+        <div className='titlerowcontainer'>
 
-        <div className='titleline'></div>
+          <div className='titlename'>Calistus Trophy</div>
+          <div className='titleline'></div>
+        </div>
+
+        
+
+        
       </div>
+      <div className='photostory'>...because every photo tells a story...</div>
       
       <div className='titlevideocontainer'>
         <video className='titlevideo' src= {introVideo} autoPlay loop muted ></video>
