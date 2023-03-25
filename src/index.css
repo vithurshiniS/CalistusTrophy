@@ -120,7 +120,7 @@ margin: 10px;
   height: 60px;
   width: 100%;
   max-width: 1000px;
-  background-color:lightgreen;
+  background-color:#68CCCA;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +198,7 @@ padding-top: 30px;
   height: 60px;
   width: 100%;
   /* max-width: 1000px; */
-  background-color:chartreuse;
+  background-color:#E57373;
   display: flex;
   align-items: center;
   justify-content: center;
