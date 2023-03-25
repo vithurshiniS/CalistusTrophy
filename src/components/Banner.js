@@ -49,7 +49,7 @@ export default function Banner() {
         <CalistusIntroPage/>
       </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <CalistusIntroPage/>
       </Carousel.Item>
 
@@ -171,7 +171,7 @@ export default function Banner() {
 
       <Carousel.Item>
         <Groupefac/>
-      </Carousel.Item> */}
+      </Carousel.Item>
      
     </Carousel>
     
