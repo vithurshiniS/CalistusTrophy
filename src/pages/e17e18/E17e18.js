@@ -11,12 +11,17 @@ const images = [ft1,ft2]
 export default function E17e18() {
   return (
     <div className='e17e18container'> 
-        <div className='e17e18textcontainer'>
+    <div className='e1718textcontainer'>
+        <p className='e1718text'>
+        As the night went on, the match between the teams continued to be exciting, and the teams 17A and 18A were able to proceed to the final battle. 
+        </p>
+    </div>
+        {/* <div className='e17e18textcontainer'>
             <p className='e17e18matchtext'>As the night went on, the match between the teams continued to be exciting, and the teams 17A and 18A were able to proceed to the final battle. 
 </p>
         </div>
-       
-        <div className='e17e18imagescontainer' > 
+        */}
+        <div className='e1718imagescontainer' > 
         <ResponsiveMasonry
                 columnsCountBreakPoints={{100: 1, 200: 2}}
             >

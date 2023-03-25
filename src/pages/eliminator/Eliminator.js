@@ -10,9 +10,12 @@ import e2 from '../../assets/eliminator/e2.jpg';
 export default function Eliminator() {
     return (
         <div className='eliminatorcontainer'>
-     
-            <p>Eliminator between 16A and 19A</p>
+          <div className='eliminatortextcontainer'>
+          <p className='eliminatortext'>Eliminator between 16A and 19A</p>
         
+          </div>
+     
+            
         <Carousel className='eliminatorcarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
           <Carousel.Item className='eliminatorcarouselitem'>
             <div className='eliminatorimagecontainer'>

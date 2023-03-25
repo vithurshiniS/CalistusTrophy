@@ -10,9 +10,12 @@ import q13 from '../../assets/qualifier1/q13.jpeg';
 export default function Qualifier1() {
     return (
         <div className='qualifier1container'>
-            <p>It's time for the playoffs! </p>
-            <p>Qualifier 1 between 17A and 18A</p>
+            <p style={{color:'white', marginTop:'10px'}}>It's time for the playoffs! </p>
+            <div className='qualifier1textcontainer'>
+            <p className='qualifier1text'>Qualifier 1 between 17A and 18A</p>
         
+            </div>
+           
         <Carousel className='qualifier1carousel' fade slide={false} interval={1000} controls={false} indicators={false}>
           <Carousel.Item className='qualifier1carouselitem'>
             <div className='qualifier1imagecontainer'>

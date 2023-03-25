@@ -16,34 +16,37 @@ export default function Nightmatch() {
         // };
 
     return (
-        <div className='whole'>
-            <p>According to the most recent Calistus Memorial Trophy performances, the champions have a pattern of 10, 12, 14, and 16. With 18A's triumph, will the pattern hold, or can 17A break the odd-year curse and take home the Calistus Trophy since it has been over ten years since an odd-year batch has done so? </p>
+        <div className='nightmatchcontainer'>
+          <div className='nighttextcontainer'>
+          <p className='nighttext'>According to the most recent Calistus Memorial Trophy performances, the champions have a pattern of 10, 12, 14, and 16. With 18A's triumph, will the pattern hold, or can 17A break the odd-year curse and take home the Calistus Trophy since it has been over ten years since an odd-year batch has done so? </p>
+          </div>
+           
         
-        <Carousel className='carousel' fade slide={false} interval={1000} controls={false} indicators={false}>
-          <Carousel.Item className='carouselitem'>
-            <div className='imgcontain'>
+        <Carousel className='nightcarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
+          <Carousel.Item className='nightcarouselitem'>
+            <div className='nightimgcontain'>
             <img
-              className="imgset"
+              className="nightimgset"
               src={nmatch1}
               alt="First slide"
             />
             </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='nightcarouselitem'>
+          <div className='nightimgcontain'>
             <img
-              className="imgset"
+              className="nightimgset"
               src={nmatch2}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain3'>
+          <Carousel.Item className='nightcarouselitem'>
+          <div className='nightimgcontain_height'>
             <img
-              className="imgset"
+              className="nightimgset"
               src={nmatch3}
               alt="Second slide"
             />

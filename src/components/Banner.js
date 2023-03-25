@@ -41,7 +41,7 @@ export default function Banner() {
 
   return (
    <Carousel  indicators= {false} style={{margin: 0,backgroundColor:'black'}}>
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <TitlePage/>
       </Carousel.Item>
 
@@ -63,89 +63,89 @@ export default function Banner() {
 
       <Carousel.Item>
         <Coin/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
       {/* <Carousel.Item>
         <Deck/>
       </Carousel.Item> */}
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Defending/>
       </Carousel.Item>
 
       <Carousel.Item>
         <Ground/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
       <Carousel.Item>
         <Navasir/>
       </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Qualifier1/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Eliminator/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Qualifier2/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <E17e18/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Nightmatch/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Daymatch/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Thrill/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Disappointments/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Victory/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Brothers/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Selfie/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Roshansir/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Highlights/>
       </Carousel.Item>
 
       <Carousel.Item>
         <Football/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Volleyball/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Badminton/>
-      </Carousel.Item> */}
+      </Carousel.Item>
 
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Championcricket/>
       </Carousel.Item>
 
@@ -171,7 +171,7 @@ export default function Banner() {
 
       <Carousel.Item>
         <Groupefac/>
-      </Carousel.Item> */}
+      </Carousel.Item>
      
     </Carousel>
     

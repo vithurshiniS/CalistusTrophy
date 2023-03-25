@@ -9,44 +9,47 @@ import dmatch4 from '../../assets/daymatch/dmatch4.jpeg';
 
 export default function Daymatch() {
     return (
-        <div className='whole'>
-            <p>The dawn has arrived, but the game went on. </p>
+        <div className='daymatchcontainer'>
+          <div className='daymatchtextcontainer'>
+          <p className='daymatchtext'>The dawn has arrived, but the game went on. </p>
+          </div>
+            
         
-        <Carousel className='carousel' fade slide={false} interval={1000} controls={false} indicators={false}>
-          <Carousel.Item className='carouselitem'>
-            <div className='imgcontain'>
+        <Carousel className='daycarousel' fade slide={false} interval={1000} controls={false} indicators={false}>
+          <Carousel.Item className='daycarouselitem'>
+            <div className='dayimgcontain'>
             <img
-              className="imgset"
+              className="dayimgset"
               src={dmatch1}
               alt="First slide"
             />
             </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain'>
+          <Carousel.Item className='daycarouselitem'>
+          <div className='dayimgcontain'>
             <img
-              className="imgset"
+              className="dayimgset"
               src={dmatch2}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain3'>
+          <Carousel.Item className='daycarouselitem'>
+          <div className='dayimgcontain'>
             <img
-              className="imgset"
+              className="dayimgcontain_height"
               src={dmatch3}
               alt="Second slide"
             />
              </div>
           </Carousel.Item>
 
-          <Carousel.Item className='carouselitem'>
-          <div className='imgcontain3'>
+          <Carousel.Item className='daycarouselitem'>
+          <div className='dayimgcontain'>
             <img
-              className="imgset"
+              className="dayimgcontain_height"
               src={dmatch4}
               alt="Second slide"
             />

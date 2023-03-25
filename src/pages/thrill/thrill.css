@@ -14,23 +14,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 
     /* flex-direction: column; */
 }
 
 .thrilltextcontainer{
     /* margin-top: 20px; */
-    margin: 20px;
-    padding: 20px;
     max-width: 500px;
-    width: 100%;
-    height: 100%;
-    background-color:#C8E6C9;
+    background-color: crimson;
+    margin-right: 20px;
+    
 }
 
 .thrilltext{
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
+    /* width: 100%; */
+    /* font-size: 20px; */
+    padding: 20px;
     font-weight: bold;
 }

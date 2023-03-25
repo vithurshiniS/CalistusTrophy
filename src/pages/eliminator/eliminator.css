@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .eliminatorcarouselitem{
@@ -13,8 +14,8 @@
 }
 
 .eliminatorimagecontainer{
-    max-width: 800px;
-    max-height: 900px;
+    max-width: 810px;
+    max-height: 540px;
 }
 .eliminatorcarousel{
     margin: 20px;
@@ -26,6 +27,18 @@
 }
 
 .eliminatorimage_height{
-    max-height: 600px ;
-    max-width:eliminator
+    max-height: 540px ;
+    max-width: 360px;
+}
+
+.eliminatortextcontainer{
+    max-width: 700px;
+    width: 100%;
+    background-color: #0097A7;
+    margin-top: 40px;
+}
+
+.eliminatortext{
+    padding: 10px;
+    font-weight: bold;
 }

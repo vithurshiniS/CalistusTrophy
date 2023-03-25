@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .qualifier2carouselitem{
@@ -13,8 +14,8 @@
 }
 
 .qualifier2imagecontainer{
-    max-width: 800px;
-    max-height: 900px;
+    max-width: 810px;
+    max-height: 540px;
 }
 .qualifier2carousel{
     margin: 20px;
@@ -26,6 +27,18 @@
 }
 
 .qualifier2image_height{
-    max-height: 600px ;
-    max-width: 400px;
+    max-height: 540px ;
+    max-width: 360px;
+}
+
+.qualifier2textcontainer{
+    max-width: 700px;
+    width: 100%;
+    background-color: #0097A7;
+    margin-top: 40px;
+}
+
+.qualifier2text{
+    padding: 10px;
+    font-weight: bold;
 }

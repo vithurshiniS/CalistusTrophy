@@ -10,12 +10,12 @@ const images = [dis1,dis2]
 
 export default function Disappointments() {
   return (
-    <div className='disappointcontainer'> 
-        <div className='disappointtextcontainer'>
-            <p className='disappointmatchtext'>The match had some disappointments as well.</p>
+    <div className='disappointmentcontainer'> 
+        <div className='disappointmenttextcontainer'>
+            <p className='disappointmentmatchtext'>The match had some disappointments as well.</p>
         </div>
        
-        <div className='disappointimagescontainer' > 
+        <div className='disappointmentimagescontainer' > 
         <ResponsiveMasonry
                 columnsCountBreakPoints={{100: 1, 200: 2}}
             >
@@ -30,9 +30,7 @@ export default function Disappointments() {
                     ))}
                 </Masonry>
             </ResponsiveMasonry>
-        </div>
-        
-       
+        </div>    
     </div>
     
     

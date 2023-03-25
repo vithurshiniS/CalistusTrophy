@@ -11,12 +11,12 @@ const images = [navasir1,navasir2,navasir3,navasir4]
 
 export default function Navasir() {
   return (
-    <div className='wholecontainer'> 
-        <div className='playoffmatchtextcontainer'>
-            <p className='playoffmatchtext'>The chief guest, Dr S.K. Navaratnarajah, a Senior Lecturer of the Department of Civil Engineering of the University of Peradeniya, officially kicked off the event under the lights as the night began to shine. </p>
+    <div className='navasircontainer'> 
+        <div className='navasirtextcontainer'>
+            <p className='navasirtext'>The chief guest, Dr S.K. Navaratnarajah, a Senior Lecturer of the Department of Civil Engineering of the University of Peradeniya, officially kicked off the event under the lights as the night began to shine. </p>
         </div>
        
-        <div className='check1' > 
+        <div className='navasirmasonry' > 
         <ResponsiveMasonry
                 columnsCountBreakPoints={{100: 1, 200: 2}}
             >
