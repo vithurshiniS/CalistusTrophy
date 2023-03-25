@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect, useRef, Component } from 'react'
 import './titlepage.css';
 import introVideo from '../../assets/introVideo.mp4';
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css'
 
 export default function TitlePage() {
+
+ 
+
   return (
   <div className='titlebackgroundimage'>
     <div className='titlepage'>
@@ -23,7 +28,10 @@ export default function TitlePage() {
       <div className='photostory'>...because every photo tells a story...</div>
       
       <div className='titlevideocontainer'>
-        <video className='titlevideo' src= {introVideo} autoPlay loop muted ></video>
+      <Video autoPlay >
+        <source className='titlevideo' src={introVideo} type="video/webm"/>
+      </Video>
+        {/* <video className='titlevideo' src= {introVideo} autoPlay loop muted ></video> */}
       </div>
     
     </div>

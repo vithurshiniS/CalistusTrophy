@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-html5video": "^2.5.1",
     "react-oldest": "npm:react@^16.7.0-alpha.0",
     "react-responsive-masonry": "^2.1.7",
     "react-scripts": "5.0.1",
