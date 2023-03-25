@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CalistusTrophy/static/css/main.adafbb6d.css",
-    "main.js": "/CalistusTrophy/static/js/main.63035381.js",
+    "main.css": "/CalistusTrophy/static/css/main.e7047b80.css",
+    "main.js": "/CalistusTrophy/static/js/main.224c69ef.js",
     "static/js/787.4cfb3467.chunk.js": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js",
     "static/media/introVideo.mp4": "/CalistusTrophy/static/media/introVideo.402cb1cdc3ae9d4a9ca0.mp4",
     "static/media/e2.jpg": "/CalistusTrophy/static/media/e2.171c9a8def2af79a9c15.jpg",
@@ -11,7 +11,7 @@
     "static/media/q22.jpg": "/CalistusTrophy/static/media/q22.f8663e250404b42d96a3.jpg",
     "static/media/q21.jpg": "/CalistusTrophy/static/media/q21.0c5b102043562919b03e.jpg",
     "static/media/Highlights1.jpg": "/CalistusTrophy/static/media/Highlights1.fe2ea4c39d13b3e06f5a.jpg",
-    "static/media/black-greensplash.png": "/CalistusTrophy/static/media/black-greensplash.60c81c59a0352bd9025e.png",
+    "static/media/sidebg2.png": "/CalistusTrophy/static/media/sidebg2.3062cf07de6790d2befe.png",
     "static/media/calistusCoin.png": "/CalistusTrophy/static/media/calistusCoin.0a1a33718a1cca7fe053.png",
     "static/media/GroupEfac2.jpeg": "/CalistusTrophy/static/media/GroupEfac2.6600b9b09ac0c5cbb124.jpeg",
     "static/media/Highlights11.jpeg": "/CalistusTrophy/static/media/Highlights11.9317a90b0eb5fa532634.jpeg",
@@ -48,6 +48,7 @@
     "static/media/BM4.jpeg": "/CalistusTrophy/static/media/BM4.7a4caeddb027a7e9479e.jpeg",
     "static/media/BadmintonChamp.jpeg": "/CalistusTrophy/static/media/BadmintonChamp.25f6636d5801b29fe246.jpeg",
     "static/media/sports1.jpeg": "/CalistusTrophy/static/media/sports1.a5303ad258a50d4ee72c.jpeg",
+    "static/media/thumbnail.jpeg": "/CalistusTrophy/static/media/thumbnail.38927e0aabeb73346ae2.jpeg",
     "static/media/CBFCChamp.jpeg": "/CalistusTrophy/static/media/CBFCChamp.fed9996fb80ae1347996.jpeg",
     "static/media/ground.jpg": "/CalistusTrophy/static/media/ground.9b05e7c93bd139f01453.jpg",
     "static/media/BM2.jpeg": "/CalistusTrophy/static/media/BM2.c7737973d4be9bf731f0.jpeg",
@@ -111,12 +112,12 @@
     "static/media/defendingCaptain.jpeg": "/CalistusTrophy/static/media/defendingCaptain.68c9afc3870c821551fd.jpeg",
     "static/media/swiping.png": "/CalistusTrophy/static/media/swiping.5a62e779690f890b707a.png",
     "index.html": "/CalistusTrophy/index.html",
-    "main.adafbb6d.css.map": "/CalistusTrophy/static/css/main.adafbb6d.css.map",
-    "main.63035381.js.map": "/CalistusTrophy/static/js/main.63035381.js.map",
+    "main.e7047b80.css.map": "/CalistusTrophy/static/css/main.e7047b80.css.map",
+    "main.224c69ef.js.map": "/CalistusTrophy/static/js/main.224c69ef.js.map",
     "787.4cfb3467.chunk.js.map": "/CalistusTrophy/static/js/787.4cfb3467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adafbb6d.css",
-    "static/js/main.63035381.js"
+    "static/css/main.e7047b80.css",
+    "static/js/main.224c69ef.js"
   ]
 }
