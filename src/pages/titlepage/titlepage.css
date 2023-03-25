@@ -40,7 +40,8 @@
   
 }
 .titlebackgroundimage{
-    background-image: url('../../assets/background-images/black-greensplash.png');
+    /* background-image: url('../../assets/background-images/black-greensplash.png'); */
+    background-image: url('../../assets/background-images/sidebg2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,6 +55,8 @@
     max-width: 810px;
     max-height: 540px;
     padding-top: 25px;
+    /* width: 100%;
+    height: 100%; */
  padding-bottom: 18px;
  margin-bottom: 10px;
  display: flex;
@@ -70,6 +73,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 30px;
 }
 

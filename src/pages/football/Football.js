@@ -22,7 +22,7 @@ export default function Football() {
 
     useEffect(() => {
         console.log(carousel1.current.scrollWidth, carousel1.current.offsetWidth);
-        setWidth(4750);
+        setWidth(4700);
     },[])
 
   return (

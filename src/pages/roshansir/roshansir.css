@@ -19,8 +19,6 @@
 
 .roshansircontainer{
     display: flex;
-    /* margin-left: 20%;
-    margin-right: 20%; */
     flex-direction: column;
     height: 100vh;
     margin-top: 60px;

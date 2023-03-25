@@ -2,7 +2,8 @@ import React, { useEffect, useRef, Component } from 'react'
 import './titlepage.css';
 import introVideo from '../../assets/introVideo.mp4';
 import { DefaultPlayer as Video } from 'react-html5video';
-import 'react-html5video/dist/styles.css'
+import 'react-html5video/dist/styles.css';
+import thumb from '../../assets/thumbnail.jpeg';
 
 export default function TitlePage() {
 
@@ -28,7 +29,7 @@ export default function TitlePage() {
       <div className='photostory'>...because every photo tells a story...</div>
       
       <div className='titlevideocontainer'>
-      <Video autoPlay >
+      <Video poster={thumb} autoPlay >
         <source className='titlevideo' src={introVideo} type="video/webm"/>
       </Video>
         {/* <video className='titlevideo' src= {introVideo} autoPlay loop muted ></video> */}

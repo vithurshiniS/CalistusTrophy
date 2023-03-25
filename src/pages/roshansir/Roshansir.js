@@ -3,10 +3,10 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import './roshansir.css';
 import roshansir1 from '../../assets/roshansir/RoshanSir1.jpeg';
 import roshansir2 from '../../assets/roshansir/RoshanSir2.jpeg';
-import roshansir3 from '../../assets/roshansir/RoshanSir3.jpeg';
+// import roshansir3 from '../../assets/roshansir/RoshanSir3.jpeg';
 
 
-const images = [roshansir1,roshansir2,roshansir3]
+const images = [roshansir1,roshansir2]
 
 export default function Roshansir() {
 
@@ -28,7 +28,7 @@ export default function Roshansir() {
         }
       },[RoshansirWindowWidth])
 
-      if(RoshansirWindowWidth.RoshansirwinWidth >= 601 & RoshansirWindowWidth.RoshansirwinWidth <= 1000){
+      if(RoshansirWindowWidth.RoshansirwinWidth >= 601 & RoshansirWindowWidth.RoshansirwinWidth <= 1100){
         return (
             <div className='roshansircontainer'>
                 <div className='roshansirtextcontainer'>
@@ -66,7 +66,7 @@ export default function Roshansir() {
         
                 <div className='roshansirmasonry' style={{paddingLeft:'130px',paddingRight:'130px', paddingTop:'20px'}}> 
                 <ResponsiveMasonry
-                        columnsCountBreakPoints={{100: 1, 200: 2, 300:3}}
+                        columnsCountBreakPoints={{100: 1, 200: 2}}
                     >
                         <Masonry gutter='20px'>
                             {images.map((image, i) => (
