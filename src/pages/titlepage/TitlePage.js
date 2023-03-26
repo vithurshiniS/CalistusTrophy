@@ -26,7 +26,7 @@ export default function TitlePage() {
 
         
       </div>
-      <div className='photostory'>...because every photo tells a story...</div>
+      <div className='photostory'>...because every picture tells a story...</div>
       
       <div className='titlevideocontainer'>
       <Video poster={thumb} autoPlay >
